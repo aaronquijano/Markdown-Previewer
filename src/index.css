@@ -32,19 +32,19 @@ code {
   background-color: blanchedalmond;
   color: black;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: .5rem 0;
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .left {
   padding: 1rem;
-  width: 50vw;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -52,7 +52,7 @@ code {
 
 .right {
   padding: 1rem;
-  width: 50vw;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
